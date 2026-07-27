@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Student Registration Form</h1>
+
+    <form id="studentForm">
+
+        <label>Name</label>
+        <input type="text" id="name">
+        <small class="error" id="nameError"></small>
+
+        <label>Email</label>
+        <input type="text" id="email">
+        <small class="error" id="emailError"></small>
+
+        <label>Age</label>
+        <input type="number" id="age">
+        <small class="error" id="ageError"></small>
+
+        <button type="submit">Submit</button>
+
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
